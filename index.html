@@ -1,0 +1,37 @@
+<html>
+<style>
+body {
+  background-image: url('image1.jpg');
+}
+</style>
+<head>
+<center>
+    <h1 style="font-size: 50px;font-family: monospace;text-shadow: 1px 2px 2px rgba(255,52,179, 0.8)">UP Mindanao Airline Express</h1>
+    <h1 style="font-size: 50px;font-family: monospace;text-shadow: 1px 2px 2px rgba(255,52,179, 0.8)">Online Booking</h1>
+</center>        
+</head>
+<body>
+        <fieldset>
+        <legend>Passenger and flight details:</legend>
+    
+First name:<input type="text" id="fname"><br><br>
+Last name:<input type="text" id="lname"><br><br>
+Gender:
+<select id="gender">
+<option value="male">Male</option>
+<option value="female">Female</option>
+</select><br><br>
+    
+Email Address:<input type="text" id="email"><br><br>
+Origin:<input type="text" id="origin" ><br><br>
+Destination:<input type="text" id="destination"><br><br>
+Departure:<input type="date" id="departure">
+Return:<input type="date" id="return" ><br><br>
+    
+<button type="submit" onclick = "evaluatee()">submit</button><br><br>
+    <script src="airline.js"></script>
+       
+</fieldset>
+
+</body>
+</html>
